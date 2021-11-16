@@ -31,11 +31,13 @@ An app for finding books you love and adding them to a virtual shelf.
 
 ## <a id="technologies"></a>Technologies and Skills Demonstrated
 
-* HTML & CSS
 * Mongodb
 * Express
 * React
 * Node
+* GraphQL
+* Apollo server
+* HTML & CSS
 
 ## <a id="screenshot"></a>Screenshot
 
@@ -53,7 +55,7 @@ An app for finding books you love and adding them to a virtual shelf.
 
 ## <a id="usage"></a>Usage
 
-* The repo can be forked and then the required modules installed as per above.  The application is run from the command line by entering "node server.js"
+* The repo can be forked and then the required modules installed as per above.  The application is run from the command line by entering "npm run develop"
 
 ## <a id="license"></a>License
 
