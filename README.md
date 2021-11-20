@@ -47,7 +47,7 @@ An app for finding books you love and adding them to a virtual shelf.
 
 ## <a id="sample"></a>Visit the App deployed on Heroku
 
-* [Link to Deployed Application](https://stark-reaches-88697.herokuapp.com/)
+* [Link to Deployed Application](https://peaceful-wave-91313.herokuapp.com/)
 
 ## <a id="installation"></a>Installation
 
