@@ -39,9 +39,11 @@ An app for finding books you love and adding them to a virtual shelf.
 * Apollo server
 * HTML & CSS
 
-## <a id="screenshot"></a>Screenshot
+## <a id="screenshot"></a>Screenshots
 
-![Screenshot of App in use](./public/assets/images/SSBW.png)
+![Screenshot of App in use](./client/public/assets/images/BSSS1.png)
+
+![Screenshot of App in use](./client/public/assets/images/BSSS2.png)
 
 ## <a id="sample"></a>Visit the App deployed on Heroku
 
