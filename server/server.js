@@ -1,10 +1,9 @@
 const express = require('express');
+const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
 const db = require('./config/connection');
 //const routes = require('./routes');
 
-//added for apollo server-express
-const { ApolloServer } = require('apollo-server-express');
 // require my routes with graphQL
 const { typeDefs, resolvers } = require('./schemas');
 
@@ -15,6 +14,7 @@ const PORT = process.env.PORT || 3001;
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  context: authMiddleware,
 });
 
 // apply apollo server to express as middleware
